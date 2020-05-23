@@ -5,9 +5,6 @@
 + [About](#description)
 + [Objective](#Objective)
 + [Deployment](#deployment)
-+ [Limitations](#limitations)
-+ [Future Scope](#future_scope)
-+ [Contributing](#contributing)
 + [Authors](#authors)
 + [Acknowledgements](#acknowledgements)
 
@@ -19,3 +16,6 @@
 
 ### Deployment <a name="deployment"></a>
 + Within our use of the NEAR API, we will utilize context to By using contracts, our product will be able to identify the authenticity of a given products upon the genesis of it’s initial distribution from it’s manufacturer.
+
+### Authors <a name="authors"></a>
++ 
