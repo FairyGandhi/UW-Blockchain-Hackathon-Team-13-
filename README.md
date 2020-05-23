@@ -1,5 +1,5 @@
 # UW-Blockchain-Hackathon (Team-13)
-
+The mission statement of our team is to learn about the fundamental mechanisms that power blockchain technology. 
 
 ## Table of Contents
 + [About](#description)
