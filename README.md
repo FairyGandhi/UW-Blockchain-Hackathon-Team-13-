@@ -22,6 +22,8 @@
 + #### [FindTheFake](https://www.figma.com/proto/zC90ioFHvsR9mBggij7gGX/FindtheFake-(Team-13)?node-id=1%3A3&scaling=min-zoom)
 
 ### Authors <a name="authors"></a>
-+ Jose Cantillo
-+ Fairy Gandhi
-+ Sean Lin
++ [Jose Cantillo](https://github.com/jcantillo94)
++ [Fairy Gandhi](https://github.com/FairyGandhi/)
++ [Sean Lin](https://github.com/jacky6016)
++ [May](https://github.com/staranger01)
++ [Mandy](https://github.com/mandyzi)
