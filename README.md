@@ -18,4 +18,6 @@
 + Within our use of the NEAR API, we will utilize context to By using contracts, our product will be able to identify the authenticity of a given products upon the genesis of it’s initial distribution from it’s manufacturer.
 
 ### Authors <a name="authors"></a>
-+ 
++ Jose Cantillo
++ Fairy Gandhi
++ Sean Lin
