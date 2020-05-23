@@ -5,7 +5,7 @@ import { context, storage, logging, PersistentMap } from "near-sdk-as";
 
 const balances = new PersistentMap<string, u64>("b:");
 const approves = new PersistentMap<string, u64>("a:");
-const shoes    = new PersistentMap<string, string>("s:");
+const shoes    = new PersistentMap<string, string[]>("s:");
 
 const TOTAL_SUPPLY: u64 = 1000000;
 export function init(initialOwner: string): void {
@@ -15,19 +15,29 @@ export function init(initialOwner: string): void {
   storage.set("init", "done");
 }
 
-export function produceShoes (barCode: string, info: string): void {
+export function produceShoes (barCode: string, info: string[]): void {
     shoes.set(barCode, info);
 }
 
 export function authenticate (barCode: string): boolean {
-    // check if the shoes are in the shoe map
-    // check if the buyer has enough tokens
-    // if any of the above condition does not hold, cancel trade
-    // else 
     if (shoes.contains(barCode))
         return true;
     else
         return false;
+}
+
+export function getShoeInfo (barCode: string): string[] {
+    if (shoes.contains(barCode))
+        return shoes.getSome(barCode);
+    else
+        return [];
+}
+
+export function getPrice (barCode: string): string {
+    if (shoes.contains(barCode))
+        return shoes.getSome(barCode)[0];
+    else
+        return '0';
 }
 
 export function totalSupply(): string {
