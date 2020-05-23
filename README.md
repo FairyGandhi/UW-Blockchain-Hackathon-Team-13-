@@ -19,7 +19,7 @@
 + Within our use of the NEAR API, we will utilize context to By using contracts, our product will be able to identify the authenticity of a given products upon the genesis of it’s initial distribution from it’s manufacturer.
 
 ### Wesbite Link <a name="website"></a>
-+ #### [FindTheFake](https://www.figma.com/proto/zC90ioFHvsR9mBggij7gGX/FindtheFake-(Team-13)?node-id=1%3A3&scaling=min-zoom)
++ #### [FindTheFake](https://tinyurl.com/yctm3olh)
 
 ### Authors <a name="authors"></a>
 + [Jose Cantillo](https://github.com/jcantillo94)
