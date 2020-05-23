@@ -26,4 +26,4 @@
 + [Fairy Gandhi](https://github.com/FairyGandhi/)
 + [Sean Lin](https://github.com/jacky6016)
 + [May](https://github.com/staranger01)
-+ [Mandy](https://github.com/mandyzi)
++ [Mandy Zi](https://github.com/mandyzi)
